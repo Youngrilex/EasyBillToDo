@@ -6,14 +6,14 @@ This is a simple mobile application for managing a to-do list. The application a
 Features
 Create a new to-do item: Add a new task to your to-do list.
 View all to-do items: See a list of all your to-do items.
-View details of a specific to-do item: Click on a task to see its details.
+
 Update a to-do item: Edit the title or description of an existing task.
 Delete a to-do item: Remove a task from your to-do list.
 
 Requirements
 Node.js (>= 14.x)
 npm or yarn
-React Native CLI
+Expo CLI
 Android Studio or Xcode (for running on Android or iOS)
 
 Installation
@@ -24,15 +24,15 @@ cd easybilltodo
 Install dependencies:
 npm install
 # or
-yarn install
+yarn 
 
 Run the application:
 
 For iOS:
-npx react-native run-ios
+yarn run ios
 
 For Android:
-npx react-native run-android
+yarn run android
 
 First time running mobile app? Install Expo CLI
 Install Expo CLI globally using npm or yarn:
@@ -42,3 +42,6 @@ yarn global add expo-cli
 
 Start the Expo server:
 npx expo start
+
+# runing the local server used for persisting data on the application
+yarn run json-server
